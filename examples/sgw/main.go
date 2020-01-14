@@ -39,10 +39,10 @@ import (
 
 // command-line arguments and global variables
 var (
-	s11 = flag.String("s11", "127.0.0.112:2123", "local IP:Port on S11 interface.")
-	s5c = flag.String("s5c", "127.0.0.51:2123", "local IP:Port on S5-C interface.")
-	s1u = flag.String("s1u", "127.0.0.2:2152", "local IP:Port on S1-U interface.")
-	s5u = flag.String("s5u", "127.0.0.3:2152", "local IP:Port on S5-U interface.")
+	s11 = flag.String("s11", "172.21.0.112:2123", "local IP:Port on S11 interface.")
+	s5c = flag.String("s5c", "172.21.0.2:2152", "local IP:Port on S5-C interface.")
+	s1u = flag.String("s1u", "172.21.0.51:2123", "local IP:Port on S1-U interface.")
+	s5u = flag.String("s5u", "172.21.0.3:2152", "local IP:Port on S5-U interface.")
 
 	sgw *sGateway
 )

@@ -30,8 +30,8 @@ import (
 
 // command-line arguments
 var (
-	s5c = flag.String("s5c", "127.0.0.52:2123", "IP Address:Port for S5-C interface.")
-	s5u = flag.String("s5u", "127.0.0.4:2152", "IP Address:Port for S5-U interface.")
+	s5c = flag.String("s5c", "172.21.0.52:2123", "IP Address:Port for S5-C interface.")
+	s5u = flag.String("s5u", "172.21.0.62:2152", "IP Address:Port for S5-U interface.")
 )
 
 func main() {

@@ -11,9 +11,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	v2 "github.com/wmnsk/go-gtp/v2"
-	"github.com/wmnsk/go-gtp/v2/ies"
-	"github.com/wmnsk/go-gtp/v2/messages"
+	v2 "github.com/vulk/go-gtp/v2"
+	"github.com/vulk/go-gtp/v2/ies"
+	"github.com/vulk/go-gtp/v2/messages"
 )
 
 func (s *sgw) handleCreateSessionRequest(s11Conn *v2.Conn, mmeAddr net.Addr, msg messages.Message) error {

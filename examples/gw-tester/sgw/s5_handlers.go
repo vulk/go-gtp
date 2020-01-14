@@ -12,9 +12,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	v2 "github.com/wmnsk/go-gtp/v2"
-	"github.com/wmnsk/go-gtp/v2/ies"
-	"github.com/wmnsk/go-gtp/v2/messages"
+	v2 "github.com/vulk/go-gtp/v2"
+	"github.com/vulk/go-gtp/v2/ies"
+	"github.com/vulk/go-gtp/v2/messages"
 )
 
 func (s *sgw) handleCreateSessionResponse(s5cConn *v2.Conn, pgwAddr net.Addr, msg messages.Message) error {

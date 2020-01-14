@@ -1,4 +1,4 @@
-module github.com/wmnsk/go-gtp
+module github.com/vulk/go-gtp
 
 require (
 	github.com/golang/protobuf v1.3.2

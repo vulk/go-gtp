@@ -13,8 +13,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	v2 "github.com/wmnsk/go-gtp/v2"
-	"github.com/wmnsk/go-gtp/v2/messages"
+	v2 "github.com/vulk/go-gtp/v2"
+	"github.com/vulk/go-gtp/v2/messages"
 )
 
 func main() {

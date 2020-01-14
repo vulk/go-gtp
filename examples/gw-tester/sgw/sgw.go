@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 
-	v1 "github.com/wmnsk/go-gtp/v1"
-	v2 "github.com/wmnsk/go-gtp/v2"
+	v1 "github.com/vulk/go-gtp/v1"
+	v2 "github.com/vulk/go-gtp/v2"
 )
 
 type sgw struct {
